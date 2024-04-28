@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.Tokenizer","timestamp":1714284123339,"sparkVersion":"3.5.0-amzn-1","uid":"Tokenizer_f6d3c925b445","paramMap":{"outputCol":"words","inputCol":"Email Text"},"defaultParamMap":{"outputCol":"Tokenizer_f6d3c925b445__output"}}
