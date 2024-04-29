@@ -72,4 +72,4 @@ We used AWS EMR to create a cluster environment that contains Hadoop and Spark. 
 
 * Naive Bayes Model
 
-![model_statistic](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/model_statistic.png)
+![model_statistic](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/model_statistic.jpg)
