@@ -21,12 +21,12 @@ Recommend Using:
 ## System Architecture
 We used AWS EMR to create a cluster environment that contains Hadoop and Spark. Then, we installed the kafka and zookeeper in the docker containers. 
 
-![System Architecture](http://url/to/img.png)
+![System Architecture](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/System%20Architecture.png)
 
 ## Data Flow
 * All the data will be stored in the Hadoop HDFS.
 
-![Data Flow](http://url/to/img.png)
+![Data Flow](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/DataFlow.png)
 
 ## Installation
 1. Download the Phishing Email Detection software from our GitHub. https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project 
@@ -50,26 +50,26 @@ We used AWS EMR to create a cluster environment that contains Hadoop and Spark. 
 * phishing_email.txt – This file contains all the phishing emails our system detected.
 * confusion_matrix.png – This diagram displays true positives, true negatives, false positives and false negatives.
 
-![Data Flow](http://url/to/img.png)
+![confusion_matrix](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/confusion_matrix.png)
 
 * pie-chart-phishing.png – This diagram displays the percentage of phishing and non-phishing email in the dataset.
 
-![Data Flow](http://url/to/img.png)
+![pie-chart-phishing](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/pie-chart-phishing.png)
 
 * word_cloud_dataset.png – This diagram displays the most frequent words found in all phishing emails in the dataset.
 
-![Data Flow](http://url/to/img.png)
+![word_cloud_dataset](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/word_cloud_dataset.png)
 
 * word_cloud_model.png – This diagram displays the most frequent words found in all phishing emails that found by our system.
 
-![Data Flow](http://url/to/img.png)
+![word_cloud_model](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/word_cloud_model.png)
 
 * cpu_utilization.jpg – This diagram displays the CPU utilization when you train the model.
 
-![Data Flow](http://url/to/img.png)
+![cpu_utilization](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/cpu_utilization.jpg)
 
 ## Result
 
 * Naive Bayes Model
 
-![Data Flow](http://url/to/img.png)
+![model_statistic](https://github.com/georgeKao6856/CSCI6444-phishing_detection_big_data_project/blob/main/pictures/model_statistic.png)
