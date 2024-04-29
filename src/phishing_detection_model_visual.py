@@ -118,10 +118,8 @@ plt.savefig('pictures/confusion_matrix.png')
 #plt.show()
 
 ##Word Cloud for Model Predictions
-res = predictions.withColumn("row_id", monotonically_increasing_id())
-df = df.withColumn("row_id", monotonically_increasing_id())
-df_with_predictions = df.join(res.select("row_id", "prediction"), "row_id", "inner").drop("row_id")
-phishing_texts = df_with_predictions.filter(df_with_predictions['prediction'] == 1).select('Email Text')
+# Filter the predictions DataFrame to select only phishing emails
+phishing_texts = predictions.filter(predictions['prediction'] == 1).select('Email Text')
 
 # Collect the phishing emails into a list
 phishing_texts_list = [row['Email Text'] for row in phishing_texts.collect()]
@@ -138,7 +136,8 @@ plt.imshow(phishing_cloud)
 plt.axis('off')
 plt.tight_layout(pad=0)
 plt.savefig('pictures/word_cloud_model.png')
-#plt.show()
+##plt.show()
+
 
 """
 ##AUC Score
